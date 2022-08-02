@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="formatform" style="background-color: white">
+      <img src="./images/Form_Information-removebg-preview.png" style="height: 150px; width:150px; margin-top: -18px; margin-left: 35%;">
+        <div class="field" style="background-color:white; height:80px; position: relative; top: -1%;">        
+            <label class="label" style="margin-left: 30px; margin-top:10px;">Name</label>
+            <div class="control">
+              <input class="input formatinput" style=" margin-left: 65px;" type="text" placeholder="e.g Alex">
+            </div>
+          </div>
+          
+          <div class="field" style="background-color:white; margin-top: -4%; pos">
+            <label class="label" style="margin-left:30px; margin-top:10px;">Last Name</label>
+            <div class="control">
+              <input class="input formatinput" style=" margin-left: 65px;" type="email" placeholder="e.g. Smith">
+            </div>
+          </div>
+
+          <div class="field" style="background-color: white; margin-top: -15px;">
+            <label class="label" style="margin-left: 30px; margin-top:10px;">Email</label>
+            <div class="control">
+              <input class="input formatinput" style=" margin-left: 65px;" type="email" placeholder="e.g. alexsmith@gmail.com">
+            </div>
+          </div>
+
+          <div class="field" style="background-color: white; margin-top: 2px;">
+            <label class="label" style="margin-left: 30px; margin-top:10px;">Phone Number</label>
+            <div class="control">
+                <div class="field is-horizontal">
+                    <div class="field-label"></div>
+                    <div class="field-body">
+                      <div class="field is-expanded">
+                        <div class="field has-addons">
+                          <p class="control">
+                            <a class="button is-static">
+                              +55
+                            </a>
+                          </p>
+                          <p class="control is-expanded">
+                            <input class="input formatinput1" type="tel" placeholder="Your phone number">
+                          </p>
+                        </div>
+                        <p class="help">Do not enter the first zero</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div style=" margin-top: 70px; margin-left: 100px; max-height: 100px; max-width: 300px;">
+              <p><input type="checkbox"> I agree with Terms and Services </p>
+              <p><input type="checkbox"> I agree send email for more information</p>
+            </div>
+           
+            <input type="button" class="button is-primary" value="Salvar Informações" style="margin-left: 160px; margin-top:40px;">
+          </div>
+    </section>
+</body>
+</html>

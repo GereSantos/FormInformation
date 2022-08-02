@@ -1,0 +1,27 @@
+.formatform{
+    height: 700px;
+    width: 500px;
+    margin-left: 450px;
+    margin-top: 10px;
+    background-color: white;
+    border:solid;
+    border-color:#00d1b2;
+    border-radius: 10px
+    
+}
+
+.formatinput{
+    width: 350px;
+}
+
+.formatinput1{
+    width: 286px;
+    margin-right: 86px;
+}
+
+body{
+    height: 700px;
+    width: 100%;
+    background-color: #E6E8FA;
+    position:absolute;
+}
